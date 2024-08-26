@@ -78,23 +78,23 @@ python summary.py
 The script uses prompts to guide the AI model on what to generate. The prompts are stored in `prompt.json` and are read by the script.
 
 Currently, it has three sets of prompts that reference 5 topical areas, which are: Overview, Concerns, Current Model, Questions/Thoughts to Address, To-Do Lists, and Outstanding Tasks
-1. Overall Summary:
+1. **Overall Summary:**
 - Used to generate a general summary of the Teams transcript
 - Prompts: `initial_prompt_summary` and `final_prompt_summary` 
 
-2. Overall Summary Per User:
+2. **Overall Summary Per User:**
 - Generates a summary that includes references to each user and their respective timestamps within the Teams transcript.
 - Prompts: `initial_prompt_summary_per_user` and `final_prompt_summary_per_user`
 
-3. Overall Summary Per User with Questions Answered:
+3. **Overall Summary Per User with Questions Answered:**
 - Creates a summary that includes references to each user, their timestamps, and the questions answered during the meeting.
 - Prompts: `initial_prompt_summary_per_user_questions_answered` and `final_prompt_summary_per_user_questions_answered`
 
 Example output of each summary:
 (Formatted raw .txt files for markdown)
-1. (Overall Summary)[summaries/1.md]
-2. (Overall Summary Per User)[summaries/2.md]
-3. (Overall Summary Per User with Questions Answered)[summaries/3.md]
+1. [Overall Summary](summaries/1.md)
+2. [Overall Summary Per User](summaries/2.md)
+3. [Overall Summary Per User with Questions Answered](summaries/3.md)
 
 ## Logging
 
