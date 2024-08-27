@@ -152,7 +152,6 @@ def main():
     if final_response.choices:
         final_summary = final_response.choices[0].message.content.strip()
         logging.info("Final Summary has been created")
-        # logging.info(final_summary)
 
         # Save the final summary to a file called final_summary.txt
         try:
