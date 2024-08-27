@@ -12,7 +12,6 @@ The diagram below shows the current flow:
 - Python 3.12
 - Azure Open AI subscription
 - pip (Python package installer)
-- virtualenv (for creating isolated Python environments)
 
 # Setup
 
